@@ -1,8 +1,7 @@
 #!python3
 
-print('Ola mundo, seja bem vindo')
+# print('Ola mundo, seja bem vindo')
 
-import pratica01.pacote.sub.arq
+# import pratica01.pacote.sub.arq
 
-print(__name__)
-print(__package__)
+import tipos.variaveis
