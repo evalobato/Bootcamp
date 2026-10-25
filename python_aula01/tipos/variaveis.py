@@ -15,5 +15,5 @@ print(3 * saudacao )
 PI = 3.14
 
 raio = float(input('informe o raio da circuferência: '))
-area = PI * pow(raio)
+area = PI * pow(raio,raio)
 print(f'a area da circ é de {area}')
