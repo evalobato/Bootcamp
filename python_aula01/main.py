@@ -11,4 +11,5 @@
 #import tipos.operadores
 #import tipos.operadores.relacionais
 
-import tipos.operadores.atribuicao
+#import tipos.operadores.atribuicao
+import tipos.operadores.logicos
