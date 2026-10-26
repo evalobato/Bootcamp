@@ -9,4 +9,4 @@
 #import tipos.conjuntos
 #import tipos.dicionario
 #import tipos.operadores
-import tipos.operadores.aritmeticos
+import tipos.operadores.relacionais
