@@ -8,4 +8,5 @@
 
 #import tipos.lista
 
-import tipos.tuplas
+#import tipos.tuplas
+import tipos.conjuntos
