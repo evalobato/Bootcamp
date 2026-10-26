@@ -4,4 +4,6 @@
 
 # import pratica01.pacote.sub.arq
 
-from tipos import variaveis, basicos
+#from tipos import variaveis, basicos
+
+import tipos.lista
