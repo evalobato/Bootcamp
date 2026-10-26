@@ -9,5 +9,5 @@ print(len(nums))
 nums[3] = 100
 nums.insert(0, -200)
 
-print(nums[5])
+print(nums[-1])
 print(nums)
