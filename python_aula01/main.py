@@ -9,4 +9,5 @@
 #import tipos.lista
 
 #import tipos.tuplas
-import tipos.conjuntos
+#import tipos.conjuntos
+import tipos.dicionario
