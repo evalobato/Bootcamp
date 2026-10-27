@@ -8,9 +8,10 @@
 #import tipos.tuplas
 #import tipos.conjuntos
 #import tipos.dicionario
-#import tipos.operadores
-#import tipos.operadores.relacionais
 
-#import tipos.operadores.atribuicao
-#import tipos.operadores.logicos
-import tipos.operadores.ternario
+#import operadores.unarios
+#import operadores.relacionais
+
+#import operadores.atribuicao
+#import operadores.logicos
+#import operadores.ternario
