@@ -1,8 +1,9 @@
 #pegar a entrada do usuário, que neste caso será uma nota válida, para visualizar se passou de ano, reprovou ou estar de recuperação
 
 nota = float(input("Informe a nota do aluno(a): "))
+comportado = True if input("Comportado:(s/n) ") == 'y' else False #demostração do padrão ternário executado anteriormente, e em como eles podem ser utilizados juntos
 
-if nota >= 9: #se esta situação for verdadeira, execute o bloco de código que pertence a ele indicado pela identação
+if nota >= 9 and comportado: #se esta situação for verdadeira, execute o bloco de código que pertence a ele indicado pela identação
     print("Duas palavras: para bens! :D")
     print("Quadro de Honra")
 
