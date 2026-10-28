@@ -20,8 +20,8 @@
 #import controle.for_1
 #import controle.while_1
 #import controle.outros_exemplos
-from funcoes import basico 
-#ou from funcoes.basico import saudacao e saudacao(), dessa forma precisa ter cuidado para caso esteja importanto funções com o mesmo nome, irá gerar conflito, e erros na aplicação
+
+#from funcoes import basico #ou from funcoes.basico import saudacao e saudacao(), dessa forma precisa ter cuidado para caso esteja importanto funções com o mesmo nome, irá gerar conflito, e erros na aplicação
 #para acessar a função é necessário acessar o name_space para importar esse módulo, quando você cria um módulo há um nome associado a ele, tanto que posso criar uma função com o mesmo nome em outro arquivo que não terá conflito
 #basico.suadacao()
 #basico.suadacao('Maria')
@@ -30,8 +30,16 @@ from funcoes import basico
 #basico.suadacao(idade = 89) #pode-se passar apenas a idade
 #o python não possui sobrecarga de função
 #pode chamar a função de 4 formas diferentes
+#a = basico.soma_e_multipli(x = 10, a = 2, b = 3) #não printa nada, pois esta apenas retornando
+#b = basico.soma_e_multipli(x = 10, a = 2, b = 3)
+#resultado = a + b
+#print(resultado)
 
-a = basico.soma_e_multipli(x = 10, a = 2, b = 3) #não printa nada, pois esta apenas retornando
-b = basico.soma_e_multipli(x = 10, a = 2, b = 3)
-resultado = a + b
+from funcoes import args
+
+
+s = args.soma(1, 2, 3, 7,8,9, 10) #uma tupla
+print(s)
+
+resultado = args.resultado_final( nome = 'Pedro', nota = 6.3)
 print(resultado)
