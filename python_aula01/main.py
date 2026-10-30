@@ -35,11 +35,10 @@
 #resultado = a + b
 #print(resultado)
 
-from funcoes import args
+#from funcoes import args
+#s = args.soma(1, 2, 3, 7,8,9, 10) #uma tupla
+#print(s)
+#resultado = args.resultado_final( nome = 'Pedro', nota = 6.3)
+#print(resultado)
 
-
-s = args.soma(1, 2, 3, 7,8,9, 10) #uma tupla
-print(s)
-
-resultado = args.resultado_final( nome = 'Pedro', nota = 6.3)
-print(resultado)
+from funcoes import funcional
