@@ -41,4 +41,5 @@
 #resultado = args.resultado_final( nome = 'Pedro', nota = 6.3)
 #print(resultado)
 
-from funcoes import funcional
+#from funcoes import funcional
+import funcoes.map_reduce #não esta entre o builtins do python
