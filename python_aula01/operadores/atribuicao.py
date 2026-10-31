@@ -1,6 +1,7 @@
 resultado = 2
 resultado += resultado
 
+#atribuição, python possui tipos dinâmicos, a atribuição é feita com uma igualdade =
 
 resultado += 3
 resultado -= 1

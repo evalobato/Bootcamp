@@ -1,5 +1,6 @@
-#!python3
+#!python3 #-> indica ao sistema operacional qual interpretador dever ser usado para executar o script
 
+# -> o import é utilizado para trazer código, funções, classes ou bibliotecas para um arquivo em que esta sendo trabalhado no momento, dessa forma o projeto pode ser modularizado e também evita reescrever trechos do código que ja estão escritas em outros arquivos
 # print('Ola mundo, seja bem vindo')
 
 # import pratica01.pacote.sub.arq
@@ -48,4 +49,4 @@
 
 #import oo.produto
 #import oo.heranca
-import oo.membros
+#import oo.membros
