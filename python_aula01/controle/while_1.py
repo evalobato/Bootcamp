@@ -1,4 +1,4 @@
-#x = 10
+x = 10
 
 #while x: #while com um número determinado de repetições
   #  print(x)

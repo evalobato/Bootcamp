@@ -7,7 +7,7 @@ aluno = {
 
 
 print(type(aluno))
-print(aluno['nome']) ##a partir da chave consegue acessar o valor
+print(aluno['nome']) #a partir da chave consegue acessar o valor
 print(aluno['nota'])
 print(aluno['ativa'])
 print(len(aluno))
