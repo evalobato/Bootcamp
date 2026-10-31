@@ -6,7 +6,7 @@ class Produto:
    def __init__(self, nome, preco = 1.99, desc = 0): #atributo de instância, inicializa a partir do init
     # essa função é usada para instanciar um novo objeto, ela que vai inicializar os dados do novo objeto, p python trabalha com o conceito que não tem nada implicito, cada parâmetro passado é um dado
    #a propria referencia para instacia passada pela parâmtro (self) para um metódo que é um metodo de instacia, mais um parâmetro chamado nome, preço com valor não variável
-        self.nome = nome #atribuir o nome do porduto que eu passei, para ser um atributo de dentro do onjeto, criando-o dinamicamente, que acabou de ser instanciado
+        self.nome = nome #atribuir o nome do porduto que eu passei, para ser um atributo de dentro do objeto, criando-o dinamicamente, que acabou de ser instanciado
         #convenção para atributos privados, colocar dois (__) antes do nome do atributo
     #atributo dentro do objeto
         self.__preco = preco #tem que inicializar
