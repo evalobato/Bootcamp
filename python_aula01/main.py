@@ -47,4 +47,5 @@
 #import funcoes.comprehension
 
 #import oo.produto
-import oo.heranca
+#import oo.heranca
+import oo.membros
