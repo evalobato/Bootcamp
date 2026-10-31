@@ -44,4 +44,7 @@
 #from funcoes import funcional
 #import funcoes.map_reduce #não esta entre o builtins do python
 #import funcoes.lambdas
-import funcoes.comprehension
+#import funcoes.comprehension
+
+#import oo.produto
+import oo.heranca
